@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="navbar bg-base-100 gap-4">
+      <div class="flex-1 gap-4">
+        <a class="btn btn-ghost text-xl">TrioSaktiA</a>
+      </div>
+
+      <div class="flex-none gap-4">
+        <a href="Index1.html">Home</a>
+        <a class="cursor-pointer" href="service.html">Service</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="form-control">
+          <input
+            type="text"
+            placeholder="Search"
+            class="input input-bordered w-24 md:w-auto"
+          />
+        </div>
+        <div class="dropdown dropdown-end">
+          <div
+            tabindex="0"
+            role="button"
+            class="btn btn-ghost btn-circle avatar"
+          >
+            <div class="w-40 rounded-full">
+              <img
+                alt="Tailwind CSS Navbar component"
+                src="asset/IMG_20240405_132518-removebg-preview.png"
+              />
+            </div>
+          </div>
+          <ul
+            tabindex="0"
+            class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <a class="justify-between">
+                Profile
+                <span class="badge">New</span>
+              </a>
+            </li>
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto">
+      <div class="flex pt-24">
+        <div class="w-1/2 px-16">
+          <h2 class="text-2xl font-bold mb-8">Get In Touch</h2>
+          <h2 class="text-2xl font-semibold mb-2">If you are interested in my work or have a project you would like to discuss, I am more than happy to communicate further.</h2>
+
+          <div class="flex flex-col gap-4">
+            <label class="input input-bordered flex items-center gap-2">
+              Name
+              <input type="text" class="grow" placeholder="masukan nama" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2">
+              Email
+              <input type="text" class="grow" placeholder="masukan email" />
+            </label>
+            <textarea
+              placeholder="Bio"
+              class="textarea textarea-bordered textarea-lg w-full max-w-xs"
+            ></textarea>
+
+            <div>
+              <button class="btn btn-primary px-8">Send</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/2">
+          <div class="avatar flex justify-center">
+            <div
+              class="w-80 rounded-full shadow ring-offset-base-100 ring-offset-2 bg-amber-400"
+            >
+              <img
+                class="w-full"
+                src="asset/IMG_20240405_125133-removebg-preview.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
